@@ -101,7 +101,7 @@ func (b Driver) Delete(key string) error {
 }
 
 func (b Driver) List(prefix string) ([]string, error) {
-	var out []string
+	out := []string{}
 	err := b.db.View(func(tx *badger.Txn) error {
 		opt := badger.DefaultIteratorOptions
 		opt.Prefix = []byte(prefix)
