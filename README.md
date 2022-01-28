@@ -20,8 +20,8 @@ func main() {
 	options := badger.DefaultOptions("").WithInMemory(true)
 	db, err := badger.Open(options)
 	if err != nil {
-        panic(err)
-    }
+		panic(err)
+	}
 	defer db.Close()
 
 	// Create driver using database instance
