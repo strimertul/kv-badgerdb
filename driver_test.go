@@ -1,4 +1,4 @@
-package badgerdb
+package badger_driver
 
 import (
 	"testing"
