@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/dgraph-io/badger/v3 v3.2103.2
-	github.com/strimertul/kilovolt/v7 v7.2.4
+	github.com/strimertul/kilovolt/v8 v8.0.0
 )
 
 require (

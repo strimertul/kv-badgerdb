@@ -2,7 +2,7 @@ package badger_driver
 
 import (
 	"github.com/dgraph-io/badger/v3"
-	kv "github.com/strimertul/kilovolt/v7"
+	kv "github.com/strimertul/kilovolt/v8"
 )
 
 type Driver struct {
